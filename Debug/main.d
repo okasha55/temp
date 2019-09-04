@@ -24,6 +24,8 @@ main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/mpu
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/task.h
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/list.h
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/timers.h
+main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/semphr.h
+main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/queue.h
 main.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_memmap.h
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h
@@ -53,6 +55,8 @@ main.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/time.h
 main.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/abi_prefix.h
 main.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/xlocale/_time.h
 main.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/uartstdio.h
+main.obj: ../USB_tasks.h
+main.obj: ../usb_serial_structs.h
 
 ../main.c: 
 ../Initializations.h: 
@@ -78,6 +82,8 @@ E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/mpu_wrappers.
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/task.h: 
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/list.h: 
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/timers.h: 
+E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/semphr.h: 
+E:/Shell_ECO_2020/Electrical_control_CCS_Template/FreeRTOS/include/queue.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_memmap.h: 
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h: 
@@ -107,3 +113,5 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/time.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/abi_prefix.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/xlocale/_time.h: 
 E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/uartstdio.h: 
+../USB_tasks.h: 
+../usb_serial_structs.h: 

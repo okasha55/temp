@@ -24,6 +24,7 @@
 #include <FreeRTOS.h>
 #include <task.h>
 #include <timers.h>
+#include <semphr.h>
 
 
 //CCS Default includes
@@ -67,28 +68,28 @@
 #include "utils/ustdlib.h"
 #include "utils/uartstdio.h"
 
-void BlinkMyLED(void *);
+
+#include "USB_tasks.h"
+#include "usb_serial_structs.h"
+uint8_t flag=0;
+char read_char;
+
+void tx_app (void)
+{
+    flag+=1;
+}
+
+void rx_app (void)
+{
+   USBBufferWrite((tUSBBuffer *)&g_sTxBuffer,"R",1);
+   USBBufferRead((tUSBBuffer *)&g_sRxBuffer,&read_char,1);
+   USBBufferWrite((tUSBBuffer *)&g_sTxBuffer,&read_char,1);
+}
 
 int main(void)
 {
-    //50Hz
-    MAP_SysCtlClockSet(SYSCTL_SYSDIV_4 | SYSCTL_USE_PLL | SYSCTL_OSC_MAIN |SYSCTL_XTAL_16MHZ);
 
-    MAP_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); // activate internal bus clocking for GPIO port F
-    while (!MAP_SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)) ; // busy-wait until GPIOF's bus clock is ready
-
-    MAP_GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3); // PF_1(RED) PF_2(BLUE) PF_3(GREEN) as output
-
-    // doesn't need too much drive strength as the RGB LEDs on the TM4C123 launchpad are switched via N-type transistors
-    MAP_GPIOPadConfigSet(GPIO_PORTF_BASE, GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, GPIO_STRENGTH_4MA, GPIO_PIN_TYPE_STD);
-
-    MAP_GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1, 0); // off by default
-
-    MAP_GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, 0);
-
-    MAP_GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3, 0);
-
-
+    vInit_USBTasks (tx_app,rx_app);
     // Prototype for xTaskCreate:
         //
         //  BaseType_t xTaskCreate( TaskFunction_t pvTaskCode,
@@ -97,9 +98,6 @@ int main(void)
         //                          void *pvParameters,
         //                          UBaseType_t uxPriority,
         //                          TaskHandle_t *pvCreatedTask);
-    if (pdTRUE != xTaskCreate(BlinkMyLED, "Blinker", 32, NULL, 4, NULL)) { // (void *)1 is our pvParameters for our task func specifying PF_1
-           while (1) ; // error creating task, out of memory?
-    }
 
     vTaskStartScheduler();  // Start FreeRTOS!
 
@@ -112,23 +110,4 @@ int main(void)
 
 
 
-void BlinkMyLED(void *pvParameters) {
-                                                        /* While pvParameters is technically a pointer, a pointer is nothing
-                                                         * more than an unsigned integer of size equal to the architecture's
-                                                         * memory address bus width, which is 32-bits in ARM.  We're abusing
-                                                         * the parameter then to hold a simple integer value.  Could also have
-                                                         * used this as a pointer to a memory location holding the value, but
-                                                         * our method uses less memory.
-                                                         */
-    uint8_t ui8whichBit = 0;
 
-    while (1) {
-
-        MAP_GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, ui8whichBit);
-        ui8whichBit += 2;
-        ui8whichBit %= 15;
-
-        vTaskDelay(1000 / portTICK_RATE_MS);  // Suspend this task (so others may run) for 1s or as close as we can get with the current RTOS tick setting.
-    }
-    // No way to kill this blinky task unless another task has an xTaskHandle reference to it and can use vTaskDelete() to purge it.
-}
