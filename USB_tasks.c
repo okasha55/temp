@@ -81,113 +81,9 @@ static void USB_HardwareConfiguration (void )
 }
 
 /*****************************CALLBACK ROUTINES*********************************/
-//*****************************************************************************
-// Handles CDC driver notifications related to control and setup of the device.
-//
-//*****************************************************************************
-uint32_t ControlHandler(void *pvCBData, uint32_t ui32Event,uint32_t ui32MsgValue, void *pvMsgData)
-{
- /*   uint32_t ui32IntsOff;
 
-    //
-    // Which event are we being asked to process?
-    //
-    switch(ui32Event)
-    {
-    //
-    // We are connected to a host and communication is now possible.
-    //
-    case USB_EVENT_CONNECTED:
-        g_bUSBConfigured = true;
+uint32_t ControlHandler(void *pvCBData, uint32_t ui32Event,uint32_t ui32MsgValue, void *pvMsgData){}
 
-        //
-        // Flush our buffers.
-        //
-        USBBufferFlush(&g_sTxBuffer);
-        USBBufferFlush(&g_sRxBuffer);
-
-        //
-        // Tell the main loop to update the display.
-        //
-        ui32IntsOff = ROM_IntMasterDisable();
-        g_pcStatus = "Connected";
-        g_ui32Flags |= COMMAND_STATUS_UPDATE;
-        if(!ui32IntsOff)
-        {
-            ROM_IntMasterEnable();
-        }
-        break;
-
-        //
-        // The host has disconnected.
-        //
-    case USB_EVENT_DISCONNECTED:
-        g_bUSBConfigured = false;
-        ui32IntsOff = ROM_IntMasterDisable();
-        g_pcStatus = "Disconnected";
-        g_ui32Flags |= COMMAND_STATUS_UPDATE;
-        if(!ui32IntsOff)
-        {
-            ROM_IntMasterEnable();
-        }
-        break;
-
-        //
-        // Return the current serial communication parameters.
-        //
-    case USBD_CDC_EVENT_GET_LINE_CODING:
-        GetLineCoding(pvMsgData);
-        break;
-
-        //
-        // Set the current serial communication parameters.
-        //
-    case USBD_CDC_EVENT_SET_LINE_CODING:
-        SetLineCoding(pvMsgData);
-        break;
-
-        //
-        // Set the current serial communication parameters.
-        //
-    case USBD_CDC_EVENT_SET_CONTROL_LINE_STATE:
-        SetControlLineState((uint16_t)ui32MsgValue);
-        break;
-
-        //
-        // Send a break condition on the serial line.
-        //
-    case USBD_CDC_EVENT_SEND_BREAK:
-        SendBreak(true);
-        break;
-
-        //
-        // Clear the break condition on the serial line.
-        //
-    case USBD_CDC_EVENT_CLEAR_BREAK:
-        SendBreak(false);
-        break;
-
-        //
-        // Ignore SUSPEND and RESUME for now.
-        //
-    case USB_EVENT_SUSPEND:
-    case USB_EVENT_RESUME:
-        break;
-
-        //
-        // We don't expect to receive any other events.  Ignore any that show
-        // up in a release build or hang in a debug build.
-        //
-    default:
-#ifdef DEBUG
-        while(1);
-#else
-        break;
-#endif
-
-    }
-    return(0);*/
-}
 //*****************************************************************************
 // Handles CDC driver notifications related to the transmit channel (data to
 // the USB host).
@@ -197,6 +93,8 @@ uint32_t TxHandler(void *pvCBData, uint32_t ui32Event, uint32_t ui32MsgValue,voi
     xSemaphoreGive(Sem_USBTransmit);
     return(0);
 }
+
+
 //*****************************************************************************
 // Handles CDC driver notifications related to the receive channel (data from
 // the USB host).
@@ -206,6 +104,7 @@ uint32_t RxHandler(void *pvCBData, uint32_t ui32Event, uint32_t ui32MsgValue,voi
     xSemaphoreGive(Sem_USBReceive);
     return(0);
 }
+
 
 /********************************************************************
  *                        Public Functions
