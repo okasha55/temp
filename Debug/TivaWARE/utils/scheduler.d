@@ -10,13 +10,13 @@ TivaWARE/utils/scheduler.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2
 TivaWARE/utils/scheduler.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/utils/scheduler.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/utils/scheduler.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_ints.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/systick.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/sysctl.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/interrupt.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h
-TivaWARE/utils/scheduler.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/scheduler.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_ints.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/systick.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/sysctl.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/interrupt.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h
+TivaWARE/utils/scheduler.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/scheduler.h
 
 ../TivaWARE/utils/scheduler.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
@@ -28,10 +28,10 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_ints.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/systick.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/sysctl.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/interrupt.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/scheduler.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_ints.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/systick.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/sysctl.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/interrupt.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/scheduler.h: 

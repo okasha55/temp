@@ -9,7 +9,7 @@ TivaWARE/sensorlib/quaternion.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18
 TivaWARE/sensorlib/quaternion.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/cdefs.h
 TivaWARE/sensorlib/quaternion.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/sensorlib/quaternion.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_limits.h
-TivaWARE/sensorlib/quaternion.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/quaternion.h
+TivaWARE/sensorlib/quaternion.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/quaternion.h
 
 ../TivaWARE/sensorlib/quaternion.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/math.h: 
@@ -20,4 +20,4 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/cdefs.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_limits.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/quaternion.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/quaternion.h: 

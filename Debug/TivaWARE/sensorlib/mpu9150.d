@@ -9,11 +9,11 @@ TivaWARE/sensorlib/mpu9150.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12
 TivaWARE/sensorlib/mpu9150.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/sensorlib/mpu9150.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/sensorlib/mpu9150.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/sensorlib/mpu9150.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_ak8975.h
-TivaWARE/sensorlib/mpu9150.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_mpu9150.h
-TivaWARE/sensorlib/mpu9150.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/i2cm_drv.h
-TivaWARE/sensorlib/mpu9150.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/ak8975.h
-TivaWARE/sensorlib/mpu9150.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/mpu9150.h
+TivaWARE/sensorlib/mpu9150.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_ak8975.h
+TivaWARE/sensorlib/mpu9150.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_mpu9150.h
+TivaWARE/sensorlib/mpu9150.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/i2cm_drv.h
+TivaWARE/sensorlib/mpu9150.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/ak8975.h
+TivaWARE/sensorlib/mpu9150.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/mpu9150.h
 
 ../TivaWARE/sensorlib/mpu9150.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdint.h: 
@@ -24,8 +24,8 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_ak8975.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_mpu9150.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/i2cm_drv.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/ak8975.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/mpu9150.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_ak8975.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_mpu9150.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/i2cm_drv.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/ak8975.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/mpu9150.h: 

@@ -13,7 +13,7 @@ TivaWARE/utils/cmdline.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.L
 TivaWARE/utils/cmdline.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/string.h
 TivaWARE/utils/cmdline.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h
 TivaWARE/utils/cmdline.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h
-TivaWARE/utils/cmdline.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/cmdline.h
+TivaWARE/utils/cmdline.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/cmdline.h
 
 ../TivaWARE/utils/cmdline.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdint.h: 
@@ -28,4 +28,4 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/string.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/cmdline.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/cmdline.h: 

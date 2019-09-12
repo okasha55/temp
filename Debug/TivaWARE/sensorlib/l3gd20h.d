@@ -9,9 +9,9 @@ TivaWARE/sensorlib/l3gd20h.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12
 TivaWARE/sensorlib/l3gd20h.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/sensorlib/l3gd20h.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/sensorlib/l3gd20h.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/sensorlib/l3gd20h.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_l3gd20h.h
-TivaWARE/sensorlib/l3gd20h.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/i2cm_drv.h
-TivaWARE/sensorlib/l3gd20h.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/l3gd20h.h
+TivaWARE/sensorlib/l3gd20h.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_l3gd20h.h
+TivaWARE/sensorlib/l3gd20h.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/i2cm_drv.h
+TivaWARE/sensorlib/l3gd20h.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/l3gd20h.h
 
 ../TivaWARE/sensorlib/l3gd20h.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdint.h: 
@@ -22,6 +22,6 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/hw_l3gd20h.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/i2cm_drv.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/sensorlib/l3gd20h.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/hw_l3gd20h.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/i2cm_drv.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/sensorlib/l3gd20h.h: 

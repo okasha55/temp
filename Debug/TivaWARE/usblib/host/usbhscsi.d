@@ -10,12 +10,12 @@ TivaWARE/usblib/host/usbhscsi.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18
 TivaWARE/usblib/host/usbhscsi.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/usblib/host/usbhscsi.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/usblib/host/usbhscsi.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/usblib.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/usbmsc.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhost.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhmsc.h
-TivaWARE/usblib/host/usbhscsi.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhscsi.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/usblib.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/usbmsc.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhost.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhmsc.h
+TivaWARE/usblib/host/usbhscsi.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhscsi.h
 
 ../TivaWARE/usblib/host/usbhscsi.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
@@ -27,9 +27,9 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/usblib.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/usbmsc.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhost.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhmsc.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/usblib/host/usbhscsi.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/usblib.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/usbmsc.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhost.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhmsc.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/usblib/host/usbhscsi.h: 

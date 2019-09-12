@@ -21,8 +21,7 @@ C_SRCS += \
 ../TivaWARE/utils/softuart.c \
 ../TivaWARE/utils/spi_flash.c \
 ../TivaWARE/utils/uartstdio.c \
-../TivaWARE/utils/ustdlib.c \
-../TivaWARE/utils/wavfile.c 
+../TivaWARE/utils/ustdlib.c 
 
 C_DEPS += \
 ./TivaWARE/utils/cmdline.d \
@@ -40,8 +39,7 @@ C_DEPS += \
 ./TivaWARE/utils/softuart.d \
 ./TivaWARE/utils/spi_flash.d \
 ./TivaWARE/utils/uartstdio.d \
-./TivaWARE/utils/ustdlib.d \
-./TivaWARE/utils/wavfile.d 
+./TivaWARE/utils/ustdlib.d 
 
 OBJS += \
 ./TivaWARE/utils/cmdline.obj \
@@ -59,8 +57,7 @@ OBJS += \
 ./TivaWARE/utils/softuart.obj \
 ./TivaWARE/utils/spi_flash.obj \
 ./TivaWARE/utils/uartstdio.obj \
-./TivaWARE/utils/ustdlib.obj \
-./TivaWARE/utils/wavfile.obj 
+./TivaWARE/utils/ustdlib.obj 
 
 OBJS__QUOTED += \
 "TivaWARE\utils\cmdline.obj" \
@@ -78,8 +75,7 @@ OBJS__QUOTED += \
 "TivaWARE\utils\softuart.obj" \
 "TivaWARE\utils\spi_flash.obj" \
 "TivaWARE\utils\uartstdio.obj" \
-"TivaWARE\utils\ustdlib.obj" \
-"TivaWARE\utils\wavfile.obj" 
+"TivaWARE\utils\ustdlib.obj" 
 
 C_DEPS__QUOTED += \
 "TivaWARE\utils\cmdline.d" \
@@ -97,8 +93,7 @@ C_DEPS__QUOTED += \
 "TivaWARE\utils\softuart.d" \
 "TivaWARE\utils\spi_flash.d" \
 "TivaWARE\utils\uartstdio.d" \
-"TivaWARE\utils\ustdlib.d" \
-"TivaWARE\utils\wavfile.d" 
+"TivaWARE\utils\ustdlib.d" 
 
 C_SRCS__QUOTED += \
 "../TivaWARE/utils/cmdline.c" \
@@ -116,7 +111,6 @@ C_SRCS__QUOTED += \
 "../TivaWARE/utils/softuart.c" \
 "../TivaWARE/utils/spi_flash.c" \
 "../TivaWARE/utils/uartstdio.c" \
-"../TivaWARE/utils/ustdlib.c" \
-"../TivaWARE/utils/wavfile.c" 
+"../TivaWARE/utils/ustdlib.c" 
 
 

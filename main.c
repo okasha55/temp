@@ -25,6 +25,7 @@
 #include <task.h>
 #include <timers.h>
 #include <semphr.h>
+#include <queue.h>
 
 
 //CCS Default includes
@@ -71,24 +72,28 @@
 
 #include "USB_tasks.h"
 #include "usb_serial_structs.h"
-uint8_t flag=0;
-char read_char;
+
+QueueHandle_t Queue_steering;
 
 void tx_app (void)
 {
-    flag+=1;
 }
 
 void rx_app (void)
 {
-   USBBufferWrite((tUSBBuffer *)&g_sTxBuffer,"R",1);
+   char read_char;
    USBBufferRead((tUSBBuffer *)&g_sRxBuffer,&read_char,1);
+   vUSB_Data_Decoding (read_char) ;
    USBBufferWrite((tUSBBuffer *)&g_sTxBuffer,&read_char,1);
+
 }
 
 int main(void)
 {
 
+
+    Queue_steering = xQueueCreate( 1,2);
+    vInit_Steppers_Tasks();
     vInit_USBTasks (tx_app,rx_app);
     // Prototype for xTaskCreate:
         //

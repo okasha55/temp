@@ -10,13 +10,13 @@ TivaWARE/utils/eeprom_pb.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2
 TivaWARE/utils/eeprom_pb.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/utils/eeprom_pb.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/utils/eeprom_pb.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_sysctl.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/eeprom.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/sysctl.h
-TivaWARE/utils/eeprom_pb.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/eeprom_pb.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_sysctl.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/eeprom.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/sysctl.h
+TivaWARE/utils/eeprom_pb.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/eeprom_pb.h
 
 ../TivaWARE/utils/eeprom_pb.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
@@ -28,10 +28,10 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_sysctl.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/eeprom.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/sysctl.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/eeprom_pb.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_sysctl.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/eeprom.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/sysctl.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/eeprom_pb.h: 

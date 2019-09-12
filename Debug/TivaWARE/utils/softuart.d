@@ -13,18 +13,18 @@ TivaWARE/utils/softuart.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.
 TivaWARE/utils/softuart.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/string.h
 TivaWARE/utils/softuart.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h
 TivaWARE/utils/softuart.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_ints.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_memmap.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_sysctl.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_uart.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/gpio.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/interrupt.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom_map.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/uart.h
-TivaWARE/utils/softuart.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/softuart.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_ints.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_memmap.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_sysctl.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_uart.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/gpio.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/interrupt.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom_map.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/uart.h
+TivaWARE/utils/softuart.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/softuart.h
 
 ../TivaWARE/utils/softuart.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
@@ -39,15 +39,15 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/string.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_ints.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_memmap.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_sysctl.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_types.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/inc/hw_uart.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/gpio.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/interrupt.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/rom_map.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/uart.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/softuart.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_ints.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_memmap.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_sysctl.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_types.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/inc/hw_uart.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/gpio.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/interrupt.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/rom_map.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/uart.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/softuart.h: 

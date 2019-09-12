@@ -9,8 +9,8 @@ TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.L
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
-TivaWARE/utils/ustdlib.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h
-TivaWARE/utils/ustdlib.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/ustdlib.h
+TivaWARE/utils/ustdlib.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h
+TivaWARE/utils/ustdlib.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/ustdlib.h
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdarg.h
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/time.h
 TivaWARE/utils/ustdlib.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h
@@ -27,8 +27,8 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/utils/ustdlib.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/utils/ustdlib.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdarg.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/time.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h: 

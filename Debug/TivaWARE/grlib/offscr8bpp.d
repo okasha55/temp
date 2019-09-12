@@ -10,8 +10,8 @@ TivaWARE/grlib/offscr8bpp.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.
 TivaWARE/grlib/offscr8bpp.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h
 TivaWARE/grlib/offscr8bpp.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h
 TivaWARE/grlib/offscr8bpp.obj: E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h
-TivaWARE/grlib/offscr8bpp.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h
-TivaWARE/grlib/offscr8bpp.obj: E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/grlib/grlib.h
+TivaWARE/grlib/offscr8bpp.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h
+TivaWARE/grlib/offscr8bpp.obj: E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/grlib/grlib.h
 
 ../TivaWARE/grlib/offscr8bpp.c: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdint.h: 
@@ -23,5 +23,5 @@ E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h:
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h: 
 E:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdbool.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/driverlib/debug.h: 
-E:/Shell_ECO_2020/Electrical_control_CCS_Template/TivaWARE/grlib/grlib.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/driverlib/debug.h: 
+E:/SHELL/Shell_ECO_2020/STEERING_TEMPLATE/TivaWARE/grlib/grlib.h: 
